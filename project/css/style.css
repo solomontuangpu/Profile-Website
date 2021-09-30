@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    background-image: url("../img/bg-Shape.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50%;
+}
+.site-nav{
+    position: absolute;
+    top: 0;
+}
+.site-logo{
+    width: 150px;
+}
+.section-title{
+    font-weight: 600;
+}
+.about, .pricing{
+    background-color: #7E76F910;
+}
+.bio-img, .bio-text{
+    width: 90%;
+}
+.bg-biography{
+    background-image: url("../img/bg-2.svg");
+    background-size: 100%;
+    background-position: center;
+}
+.service-card, .price-card{
+    border-radius: 30px !important;
+    border: none;
+    margin-bottom: 30px;
+}
+.service-title{
+    font-weight: 600;
+}
+.service-card-des{
+    height: 180px;
+}
+.price-title{
+    font-weight: 600;
+}
+@media screen and (max-width: 576px) {
+    .bio-text, .bio-img{
+        width: 100% !important;
+    }
+    .bio-img{
+        margin-bottom: -75px;
+    }
+
+}
